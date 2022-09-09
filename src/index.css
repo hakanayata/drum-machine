@@ -7,6 +7,8 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   font-family: 'Jura', sans-serif;
   /* color: cyan; */
   color: #40e0d0;
@@ -17,7 +19,13 @@ header {
   display: flex;
   justify-content: center;
   font-size: 4rem;
-  margin: 2rem auto;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+#drum-machine {
+  height: 100vh;
+  width: 100vw;
 }
 
 .container {
@@ -48,5 +56,4 @@ header {
   display: flex;
   align-items: center;
   margin: 5px;
-  background-color: rgb(58, 42, 20);
 }
